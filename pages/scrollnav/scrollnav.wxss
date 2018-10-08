@@ -1,0 +1,91 @@
+/* pages/scrollnav/scrollnav.wxss */
+ 
+.a{
+  display: inline-block
+}
+.page__bd_content{
+  width: 100%;
+  height: 22px;
+}
+.tui-fixed-x {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.tui-city-scroll {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100%;
+  white-space: nowrap;
+}
+.tui-nav-li {
+  font-size: 30rpx;
+  padding: 0 8rpx;
+}
+.tui-nav-li:first-child {
+  padding-left: 16rpx;
+}
+.tui-nav-li:last-child {
+  padding-right: 16rpx;
+}
+.tui-nav-active {
+  color: red;
+}
+
+.tui-fixed-y {
+  width: 100%;
+  height: calc(100% - 80rpx);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.tui-city-scroll-y {
+  padding: 0 20rpx;
+  height: 100%;
+  white-space: nowrap;
+  width: 100%;
+  /* box-sizing: border-box; */
+}
+.tui-list-head {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30rpx;
+  color: blue;
+}
+.tui-list-li {
+  height: 400px;
+  padding: 10rpx;
+  color: #fff;
+  font-size: 50rpx;
+  background-color: lightgreen;
+}
+
+.active {
+  animation: active 1s ease;
+  color:red
+  /* //定义一个叫做active的动画 */
+}
+ 
+
+.page__ft {
+  width: 100%;
+  overflow-y: scroll;
+  height: 44px; 
+}
+.ac {
+  width: 50%;
+  float: left;
+}
+
+
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  /* overflow-x:scroll; */
+  
+  }
+  
